@@ -1,0 +1,13 @@
+body {
+  background-color: #000000;
+}
+
+.jumbotron {
+  background-image: url("images/ocean.jpg");
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 0 !important;
+  border: 0 !important;
+  margin: 0 !important;
+}

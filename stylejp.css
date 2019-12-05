@@ -1,0 +1,28 @@
+body {
+  background-color: #000000;
+  font-family: "M PLUS 1p";
+  }
+
+.jumbotron {
+  background-image: url("images/ocean.jpg");
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 0 !important;
+  border: 0 !important;
+  margin: 0 !important;
+}
+
+#english {
+  font-family: 'Roboto Mono';
+}
+
+hr {
+background-color: #FFFFFF;
+}
+
+#typewriteText {
+  color: #FFFFFF;
+  font-size: 96px;
+  text-align: center;
+}

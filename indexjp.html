@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Homepage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
+              integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+        <link rel='stylesheet' href='https://d33wubrfki0l68.cloudfront.net/js/adc83b19e793491b1c6ea0fd8b46cd9f32e592fc/javascripts/all.js'/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="stylejp.css">
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdn.rawgit.com/mrvautin/typewrite/master/dist/typewrite.min.js"></script>
+        <script type="text/javascript" src="src/typewrite.js"></script>
+
+        <script>
+
+            $(document).ready(function(){
+                $('#typewriteText').typewrite({
+                    continuous: true,
+                    actions: [
+                                {delay: 1000},
+                                {type: 'Hello!'},
+                                {delay: 1000},
+                                {select: {from: 0, to: 6}},
+                                {remove: {num: 6 , type: 'whole'}},
+                                {delay: 1000}
+                            ]
+                        });
+                    });
+
+        </script>
+
+
+    </head>
+
+    <body>
+      <!-- navigation menu -->
+      <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-light navbar-full bg-faded" style="background-color: #212121;">
+          <ul class="nav navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="indexjp.html" style="color: #FFFFFF;">_ホーム</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="photographyjp.html" style="color: #FFFFFF;">_写真ギャラリー</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="biojp.html" style="color: #FFFFFF;">_自己紹介</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactjp.html" style="color: #FFFFFF;">_お問い合わせ</a>
+            </li>
+            <li class="nav-item" id="english">
+              <a class="nav-link" href="index.html" style="color: #FFFFFF;">_English</a>
+          </ul>
+        </nav>
+
+      </div>
+
+      <br>
+
+      <!-- You'll be wrapping this content into a jumbotron, and adding more classes -->
+      <div class="jumbotron" style="font-family: 'M PLUS 1p'; color:#FFFFFF;">
+        <p class="display-3">_ ようこそ!</p>
+        <p class="lead">このウェブサイトはまだ試験中です。SNS やフリーのウェブサイトテンプレートを使用したウェブサイトではなく、１からウェブサイトを作りたかったので、このプロジェクトを立ち上げました。まだ HTML の知識は浅いので、現状は
+        α1.0版ということにしています。今後とも何卒宜しくお願いします。</p>
+        <hr class="my-4">
+        <p class="lead">このウェブサイトは基本的に趣味等を纏めるようなウェブサイトを作っています。他にも色々したりしますが、基本的には撮った写真を集めたポートフォリオ的なウェブサイトです。</p>
+      </div>
+      <!-- end -->
+
+      <hr />
+
+    <div id="typewriteText">
+    </div>
+
+    </div>
+    </body>
+</html>

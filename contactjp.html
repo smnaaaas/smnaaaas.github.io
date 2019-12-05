@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Homepage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
+              integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+        <link rel='stylesheet' href='https://d33wubrfki0l68.cloudfront.net/js/adc83b19e793491b1c6ea0fd8b46cd9f32e592fc/javascripts/all.js'/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:100&display=swap" rel="stylesheet">
+
+    <style>
+
+    body {
+      background-color: #000000;
+      font-family: "M PLUS 1p";
+    }
+
+    .jumbotron {
+      background-image: url("images/img007.jpg");
+      background-size: cover;
+      background-position: center;
+
+      border-radius: 0 !important;
+      border: 0 !important;
+      margin: 0 !important;
+    }
+
+    #english {
+      font-family: "Roboto Mono";
+    }
+
+    hr {
+      background-color: #FFFFFF;
+    }
+
+    </style>
+    </head>
+
+    <body>
+      <!-- navigation menu -->
+      <div class="container-fluid">
+        <div class="row">
+          <nav class="navbar navbar-light navbar-full bg-faded" style="background-color: #212121;">
+            <ul class="nav navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="indexjp.html" style="color: #FFFFFF;">_ホーム</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="photographyjp.html" style="color: #FFFFFF;">_写真ギャラリー</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="biojp.html" style="color: #FFFFFF;">_自己紹介</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contactjp.html" style="color: #FFFFFF;">_お問い合わせ</a>
+              </li>
+              <li class="nav-item" id="english">
+                <a class="nav-link" href="index.html" style="color: #FFFFFF;">_English</a>
+            </ul>
+          </nav>
+
+        </div>
+
+      <br>
+
+      <!-- You'll be wrapping this content into a jumbotron, and adding more classes -->
+      <div class="jumbotron" style="color:#FFFFFF;">
+        <p class="display-3">_ お問い合わせ</p>
+        <p class="lead" style="font-size: 24px;">お問い合わせが必要でありましたら、下記のお問い合わせフォームをご利用ください。</p>
+        <hr class="my-4">
+        <p class="lead">基本的に数分での返答は可能ですが (睡眠時以外では) 、遅い場合は返答に数営業日がかかる可能性があります。
+        学生なので、多忙期と休暇の波が激しいことだけはご了承ください。</p>
+        <hr class="my-4">
+        <p class="lead">SNS 等でもお問い合わせは受け付けています。一番活発なのはインスタなので、そちらが早いかと思います。</p>
+        <br>
+        <p>ご理解宜しくお願いします。</p>
+      </div>
+      <!-- end -->
+
+      <hr />
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="color: #FFFFFF;">
+      <form action="mailto:simonakamine@ocsi.org" method="get">
+        <h3>お問い合わせフォーム</h3>
+        <br>
+
+        <form style=>
+
+        <div class="form-group">
+          <label for="example-text-input" class="col-2 col-from-label">氏名</label>
+          <input class="form-control" type="name" id="example-text-input" placeholder="フルネームでお願いします。">
+          <small id="emailHelp" class="form-text text-muted">ハンドルネーム・ニックネームでも構いません。</small>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleInputEmail1">メールアドレス</label>
+          <input class="form-control" type="email" id="exampleInputEmail1" placeholder="メールアドレスをご記入ください。">
+          <small id="emailHelp" class="form-text text-muted" style="">第三者にメールアドレスを教えることは絶対にありません。</small>
+        </div>
+
+        <div class="form-group">
+          <label for="example-subject">題名</label>
+          <input class="form-control" type="subject" id="example-subject" a placeholder="題名をご記入ください。">
+        </div>
+
+        <div class="form-group">
+          <label for="example-subject">メッセージ</label>
+          <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="メッセージをご記入ください。"></textarea>
+          <small id="texthelp" class="form-text text-muted">簡潔に纏めていただくと嬉しいです。</small>
+        </div>
+
+        <button type="submit" style="background-color: #314154; color:#FFFFFF;">送信</button>
+
+      </form>
+    </div>
+
+    <div id="rightimage" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <img src="images/img011.jpg" style="max-width: 100%">
+    </div>
+
+    </div>
+    </body>
+</html>

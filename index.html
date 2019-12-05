@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Homepage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
+              integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+        <link rel='stylesheet' href='https://d33wubrfki0l68.cloudfront.net/js/adc83b19e793491b1c6ea0fd8b46cd9f32e592fc/javascripts/all.js'/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdn.rawgit.com/mrvautin/typewrite/master/dist/typewrite.min.js"></script>
+        <script type="text/javascript" src="src/typewrite.js"></script>
+
+        <style>
+
+        #japanese {
+          font-family: "M PLUS 1p" !important;
+        }
+
+        hr {
+          background-color: #FFFFFF;
+        }
+
+        #typewriteText {
+          color: #FFFFFF;
+          font-size: 96px;
+          text-align: center;
+        }
+
+        </style>
+
+        <!-- Bottom script originally from the following link:
+             https://github.com/mrvautin/typewrite -->
+
+        <script>
+            $(document).ready(function(){
+                $('#typewriteText').typewrite({
+                    continuous: true,
+                    actions: [
+                        {delay: 1000},
+                        {type: 'Hello!'},
+                        {delay: 1000},
+                        {select: {from: 0, to: 6}},
+                        {remove: {num: 6 , type: 'whole'}},
+                        {delay: 1000}
+                    ]
+                });
+            });
+
+        </script>
+
+    </head>
+
+    <body>
+      <!-- navigation menu -->
+      <div class="container-fluid" style="font-family: 'Roboto Mono';">
+      <div class="row">
+        <nav class="navbar navbar-light navbar-full bg-faded" style="background-color: #212121;">
+          <ul class="nav navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html" style="color: #FFFFFF;">_home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="photography.html" style="color: #FFFFFF;">_photography</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bio.html" style="color: #FFFFFF;">_bio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" style="color: #FFFFFF;">_contact me</a>
+            </li>
+            <li class="nav-item" id="japanese">
+              <a class="nav-link" href="indexjp.html" style="color: #FFFFFF;">_日本語</a>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+
+      <br>
+
+      <!-- You'll be wrapping this content into a jumbotron, and adding more classes -->
+      <div class="jumbotron" style="font-family: 'Roboto Mono'; color:#FFFFFF;">
+        <p class="display-3">_ welcome!</p>
+        <p class="lead">this is my website on experiment. i want to make a nice-looking website on my own instead of using a social media platform or some other free website template,
+        but since my skills are still weak, i'm just making an "α1.0" version for my website. please wait for more thicker content, because i'm still a learner in coding!</p>
+        <hr class="my-4">
+        <p class="lead">anyways, this website is my tool to better lay out my hobbies and stuff. i like to take pictures and occasionally do other "creative" stuff, so this is my portfolio.
+        i hope that you will like this website (but it's under development!!!).</p>
+      </div>
+      <!-- end -->
+
+      <hr />
+      <div id="typewriteText">
+      </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    </div>
+
+    </div>
+    </body>
+</html>
